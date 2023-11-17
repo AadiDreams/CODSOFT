@@ -1,3 +1,9 @@
 body {
     background-color: beige;
 }
+.work {
+    justify-content: center;
+    position:absolute;
+    top:300px;
+    left:40%;
+}
