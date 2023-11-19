@@ -8,3 +8,9 @@ body {
     width: 100vh;
     height: 50px;
 }
+.head-img {
+    height:30px;
+    width:70px;
+    border: 0px;
+    border-radius: 5px;
+}
