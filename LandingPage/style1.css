@@ -1,3 +1,10 @@
 body {
     background-color: beige;
 }
+.nav {
+    position: relative;
+    top:0 px;
+    left: 0px;
+    width: 100vh;
+    height: 50px;
+}
