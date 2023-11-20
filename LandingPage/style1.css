@@ -5,3 +5,17 @@ body {
     justify-content: center;
     align-items: flex-start;
 }
+.head {
+    height:100px;
+    width:100%;
+}
+.nav-button {
+    width: 150px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+    flex-shrink: 0;
+}
