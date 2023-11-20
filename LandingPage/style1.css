@@ -18,8 +18,8 @@ body {
     justify-content: space-between!important;
     align-items: center!important;
     width: 100%;
-    padding-right: ;
-    padding-left: ;
+    padding-right: 20%;
+    padding-left: 20%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -33,6 +33,10 @@ body {
 }
 .logo span {
     color:red;
+}
+a {
+    text-decoration: none;
+    color:#000
 }
 .navbar {
     position: relative;
