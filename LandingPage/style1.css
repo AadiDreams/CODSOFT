@@ -31,6 +31,9 @@ body {
     font-weight: 700;
     letter-spacing: 0.5px;
 }
+.logo span {
+    color:red;
+}
 .navbar {
     position: relative;
     display: flex;
