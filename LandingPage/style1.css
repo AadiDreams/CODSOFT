@@ -6,16 +6,16 @@ body {
     align-items: flex-start;
 }
 .head {
-    height:100px;
+    height: 6.25rem;
     width:100%;
 }
 .nav-button {
-    width: 150px;
-    height: 100px;
+    width: 9.375rem;
+    height: 6.25rem;
     flex-shrink: 0;
 }
 .logo {
-    width: 200px;
-    height: 100px;
+    width: 12.5rem;
+    height: 6.25rem;
     flex-shrink: 0;
 }
