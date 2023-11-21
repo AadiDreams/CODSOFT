@@ -62,3 +62,8 @@ a {
     font-weight: bold;
     padding: 5px 15px;
 }
+.cover {
+    width:100vw;
+    height:100vh;
+    background-image: url();
+}
