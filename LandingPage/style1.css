@@ -3,15 +3,12 @@ body {
     min-height: 100%;
     display:block;
 }
-#header {
-    display: block;
-    background: #fff;
-    z-index: 1;
-
-}
 .fixed-top {
     position: fixed;
     top: 0;
+    display: block;
+    background: #fff;
+    z-index: 1;
 }
 .container {
     display: flex;
@@ -19,7 +16,7 @@ body {
     justify-content: space-between!important;
     align-items: center!important;
     width: 100vw;
-    margin: 20px 10px 0px 10px;
+    margin: 10px;
 }
 .container * {
     padding:10px;
@@ -44,7 +41,7 @@ a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #D2E3C8;
+    background-color: #cbdadf;
 }
 .navbar ul {
     margin: 0;
@@ -63,7 +60,16 @@ a {
     padding: 5px 15px;
 }
 .cover {
-    width:100vw;
-    height:100vh;
-    background-image: url();
+    width:100%;
+    height:100%;
+    display: static;
+}
+.cover img {
+    width:100%;
+    height:100%;
+}
+.about {
+    width:100%;
+    height:100%;
+    background-color: aquamarine;
 }
