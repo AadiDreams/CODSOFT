@@ -72,12 +72,13 @@ a {
     height:300px;
     width:700px;
     padding: 20px;
-    font-size: 25pt;
+    font-size: 30pt;
     color:brown;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
 }
 .cover-text p {
-    font-size: 14pt;
+    font-size: 18pt;
 }
 .about {
     width:100%;
@@ -90,6 +91,7 @@ a {
 .about fieldset {
     width:500px;
     padding:50px;
+    margin: 20px;
     font-size: 16pt;
 }
 .service {
