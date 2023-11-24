@@ -84,7 +84,7 @@ a {
 .cover-text p {
     font-size: 18pt;
 }
-.about {
+.contact {
     width:100%;
     height:100vh;
     display:flex;
@@ -94,7 +94,7 @@ a {
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
-.about fieldset {
+.contact fieldset {
     width:500px;
     padding:30px 50px;
     margin: 20px;
