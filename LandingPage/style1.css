@@ -77,7 +77,6 @@ a {
     width:500px;
     padding: 20px;
     font-size: 30pt;
-
     color:brown;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
@@ -108,13 +107,13 @@ a {
     flex-wrap: wrap;
     gap:10px;
     padding: 50px 0px;
-    opacity: 90%;
 }
 .service-box {
     width:300px;
     height: 200px;
     padding: 20px;
-    border:1px solid #fff;
+    border:1px solid #808080;
+    background-color: #fff;
     border-radius: 20px;
 }
 #footer {
