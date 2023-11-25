@@ -28,7 +28,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.5px;
 }
-.logo span {
+.logo em {
     color:#ff0000;
 }
 a {
@@ -54,14 +54,14 @@ a {
 .active {
     color:#ff0000;
 }
-a:hover {
+
+.navbar a:hover {
     color:#808080;
 }
 .navbar li {
     font-size: 14pt;
     font-weight: bold;
     padding: 5px 15px;
-    color:#fff;
 }
 .cover {
     width:100%;
@@ -101,6 +101,8 @@ a:hover {
     font-family: 'Kalam', cursive;
     border:1px solid #808080;
     background-color: #fff;
+    color: #7a89b2;
+    font-weight: 700;
     border-radius: 20px;
     box-shadow: 5px 10px 10px #808080;
     transition: .5s all ease-in-out;
@@ -109,6 +111,10 @@ a:hover {
     padding-top: 50px;
     transition: .5s all ease-in-out;
     box-shadow: 10px 15px 15px #808080;
+}
+.service-box h3 {
+    color:#223a7a;
+    font-weight: 900;
 }
 .contact {
     width:100%;
@@ -162,7 +168,7 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     width:250px;
-    color: #00ff00;
+    color:#223a7a;
     background-image: radial-gradient(#7a89b2,#596b9b);
     transition: .5s all ease-in-out;
 }
