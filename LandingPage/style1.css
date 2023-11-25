@@ -12,7 +12,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between!important;
+    justify-content: space-around!important;
     align-items: center!important;
     width: 100vw;
     margin: 10px;
@@ -29,7 +29,7 @@ body {
     letter-spacing: 0.5px;
 }
 .logo span {
-    color:red;
+    color:#ff0000;
 }
 a {
     text-decoration: none;
@@ -52,7 +52,10 @@ a {
     text-transform: uppercase;
 }
 .active {
-    color:red;
+    color:#ff0000;
+}
+a:hover {
+    color:#808080;
 }
 .navbar li {
     font-size: 14pt;
@@ -66,7 +69,6 @@ a {
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: #fff;
     background-image: url('./img/cover.jpg');
     background-repeat: no-repeat;
     background-position: right;
@@ -77,28 +79,12 @@ a {
     width:500px;
     padding: 20px;
     font-size: 30pt;
-    color:brown;
+    color: #a52a2a;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
 }
 .cover-text p {
     font-size: 18pt;
-}
-.contact {
-    width:100%;
-    height:100vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-}
-.contact fieldset {
-    width:500px;
-    padding:30px 50px;
-    margin: 20px;
-    font-size: 16pt;
 }
 .service {
     width:100%;
@@ -121,6 +107,39 @@ a {
 .service-box:hover {
     padding-top: 50px;
     transition: .5s all ease-in-out;
+}
+.contact {
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    background-image: url('./img/contact.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 800px;
+}
+.contact fieldset {
+    width:500px;
+    padding:30px 50px;
+    margin: 20px;
+    font-size: 16pt;
+}
+input[type="text"] {
+    height:30px;
+    width:200px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+textarea {
+    height:60px;
+    width:200px;
+    border-radius: 5px;
+    border: 1px solid #808080;
+}
+input[type="text"].focus, textarea.focus {
+    border:1px solid #ff0000
 }
 #footer {
     display: flex;
