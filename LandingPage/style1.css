@@ -115,6 +115,12 @@ a {
     border:1px solid #808080;
     background-color: #fff;
     border-radius: 20px;
+    box-shadow: 5px 10px 10px #808080;
+    transition: .5s all ease-in-out;
+}
+.service-box:hover {
+    padding-top: 50px;
+    transition: .5s all ease-in-out;
 }
 #footer {
     display: flex;
