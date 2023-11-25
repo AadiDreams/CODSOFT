@@ -28,8 +28,9 @@ body {
     font-weight: 700;
     letter-spacing: 0.5px;
 }
-.logo em {
+.logo span {
     color:#ff0000;
+    margin-left: -10px;
 }
 a {
     text-decoration: none;
@@ -93,28 +94,33 @@ a {
     flex-wrap: wrap;
     gap:10px;
     padding: 50px 0px;
+    background-image: url(./img/doodle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
 }
 .service-box {
     width:300px;
     height: 200px;
     padding: 20px;
     font-family: 'Kalam', cursive;
-    border:1px solid #808080;
+    border:2px solid #808080;
     background-color: #fff;
-    color: #7a89b2;
+    color: #223a7a;
     font-weight: 700;
+    font-size: 14pt;
     border-radius: 20px;
     box-shadow: 5px 10px 10px #808080;
     transition: .5s all ease-in-out;
 }
+
 .service-box:hover {
+    color: #fff !important;
+    background-image: none;
+    background-color: #223a7a;
     padding-top: 50px;
     transition: .5s all ease-in-out;
     box-shadow: 10px 15px 15px #808080;
-}
-.service-box h3 {
-    color:#223a7a;
-    font-weight: 900;
 }
 .contact {
     width:100%;
@@ -168,7 +174,7 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     width:250px;
-    color:#223a7a;
+    letter-spacing: 5px;
     background-image: radial-gradient(#7a89b2,#596b9b);
     transition: .5s all ease-in-out;
 }
