@@ -1,6 +1,6 @@
 # CODSOFT
 Repository for web development internship.
-* Task 1- Landing Page
+* Task 1- Landing Page : https://aadidreams.github.io/CODSOFT/LandingPage/index.html
   * HTML
   * CSS
 * Task 2- Portfolio
