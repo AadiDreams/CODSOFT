@@ -79,9 +79,9 @@ a:hover {
     width:500px;
     padding: 20px;
     font-size: 30pt;
-    color: #a52a2a;
+    color: #223a7a;
     text-align: center;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light',cursive;
 }
 .cover-text p {
     font-size: 18pt;
@@ -98,6 +98,7 @@ a:hover {
     width:300px;
     height: 200px;
     padding: 20px;
+    font-family: 'Kalam', cursive;
     border:1px solid #808080;
     background-color: #fff;
     border-radius: 20px;
@@ -127,17 +128,21 @@ a:hover {
     margin: 20px;
     font-size: 16pt;
     border-radius: 30px;
+    color:#223a7a;
+    font-family: 'Courgette', cursive;
 }
 input[type="text"] {
     height:30px;
     width:300px;
     border: 1px solid #808080;
     border-radius: 5px;
+    padding:5px;
 }
 textarea {
     height:60px;
     width:300px;
     border-radius: 5px;
+    padding:5px;
     border: 1px solid #808080;
 }
 input[type="text"]:hover, textarea:hover {
@@ -147,6 +152,8 @@ input[type="submit"] {
     height:30px;
     width:150px;
     color:#fff;
+    font-family: 'Courgette', cursive;
+    font-size: 14pt;
     background-image: radial-gradient(#596b9b,#7a89b2);
     border:1px solid #808080;
     box-shadow: 2px 3px 5px #808080;
@@ -156,6 +163,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     width:250px;
     color: #00ff00;
+    background-image: radial-gradient(#7a89b2,#596b9b);
     transition: .5s all ease-in-out;
 }
 #footer {
@@ -165,5 +173,5 @@ input[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     color:#fff;
-    background-color: #000;
+    background-color: #223a7a;
 }
