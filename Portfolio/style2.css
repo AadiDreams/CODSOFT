@@ -8,5 +8,11 @@ body {
 }
 .header {
     width:100%;
+    display: flex;
+    background-color: aquamarine;
+}
+.left {
+    width:50%;
     height:100dvh;
+    background-color: bisque;
 }
