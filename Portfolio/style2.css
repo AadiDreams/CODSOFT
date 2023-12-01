@@ -12,11 +12,19 @@ body {
     background-color: aquamarine;
 }
 .left {
-    width:40%;
+    width:20%;
     height:100dvh;
     background-color: bisque;
 }
 .right {
-    width:60%;
+    width:80%;
     background-color:aqua;
+}
+.profile {
+    width:400px;
+    height:500px;
+    position: absolute;
+    top:20%;
+    left: 10%;
+    border: 2px solid #808080;
 }
