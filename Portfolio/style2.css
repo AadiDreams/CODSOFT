@@ -31,3 +31,9 @@ body {
     left: 10%;
     border: 2px solid #808080;
 }
+.nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #808080;
+}
