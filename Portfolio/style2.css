@@ -37,6 +37,12 @@ body {
     left: 10%;
     transform: translateY(-50%);
     border: 2px solid #808080;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.profile img {
+    width:300px;
+    height:300px;
 }
 .nav {
     display:flex;
