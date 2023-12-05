@@ -48,12 +48,21 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-.nav button {
-    height:50px;
-    width:50px;
+.nav-button {
+    height:60px;
+    width:60px;
+    min-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     border: none;
     margin: 10px;
+    background-color: #808080;
+}
+.nav-button img {
+    height:30px;
+    width:30px;
 }
 @media(max-width:900px) {
     .nav {
