@@ -79,11 +79,15 @@ body {
     .nav {
         flex-direction:row;
         position: fixed;
-        height:100vh;
+        height:80px;
         width:100%;
         justify-content: center;
         align-items: flex-end;
+        background-color: #161A30;
         right:0px;
+        bottom: 0%;
+        top: auto;
+        transform: none;
     }
     .left {
         background-color: #161A30;
