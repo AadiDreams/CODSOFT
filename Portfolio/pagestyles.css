@@ -48,9 +48,7 @@ body {
     justify-content: center;
     align-items: center;
     width:100%;
-    gap:50px;
     flex-wrap:wrap ;
-    margin: 20px;
 }
 .container p{
     width:50%;
@@ -90,6 +88,33 @@ span {
     height:70vh;
     width:100%;
 }
+.lbox {
+    height:400px;
+    width:400px;
+    border:1px solid #808080;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 50px;
+    text-align: center;
+    transition: .3s ease-in-out;
+}
+.lbox:hover {
+    height:460px;
+    transition: .3s ease-in-out;
+}
+.lbox a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+}
+.lbox img{
+    height: 400px;
+    width:400px;
+    opacity: .7;
+}
+.lbox img:hover {
+    opacity: 1;
+}
 @media(max-width:900px) {
     .nav {
         flex-direction:row;
@@ -107,5 +132,8 @@ span {
     .container p {
         height: 300px;
         overflow: scroll;
+    }
+    .lbox {
+        height:460px;
     }
 }
