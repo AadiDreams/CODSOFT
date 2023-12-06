@@ -21,6 +21,8 @@ body {
     background-color: #B6BBC4;
 }
 .right {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top:50%;
     left:45%;
@@ -77,7 +79,7 @@ body {
     .nav {
         flex-direction:row;
         position: fixed;
-        bottom:10%;
+        bottom:-10%;
         left:50%;
         transform: translateX(-50%);
     }
@@ -87,6 +89,7 @@ body {
     .right {
         top:45%;
         left:50%;
+        width: auto;
         transform: translateX(-50%);
     }
     .profile {
