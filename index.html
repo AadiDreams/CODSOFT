@@ -7,33 +7,41 @@
     <style>
         body
         {
-            background-color:#89B9AD;
+            background-color:#88AB8E;
         }
         .box
         {
-            height:100px;
-            width:100px;
+            height:150px;
+            width:150px;
             color:black;
-            background-color:#FFEBD8;
+            background-color:#5C8374;
             font-size:14pt;
             text-align: center;
             margin-top: 50px;
             padding:10px;
+            border: 1px solid #1B4242;
             border-radius: 10px;
-            box-shadow: 0px 5px 10px 0px;
+            box-shadow: 5px 5px 20px #1B4242;
             font-weight: bold;
             font-family:Georgia, 'Times New Roman', sans-serif, serif;
+            transition: .3s all ease-in-out;
+        }
+        .box:hover {
+            scale: 1.5;
+            transition: .3s all ease-in-out;
+            color:#F2F1EB;
         }
         .cod {
             display: flex;
             justify-content: center;
             text-transform: uppercase;
-            color:aliceblue;
+            color:#F2F1EB;
             margin-top: 200px;
         }
         a
         {
             text-decoration:none;
+            color:#F2F1EB;
         }
         .flexc {
             display: flex;
@@ -42,6 +50,10 @@
             justify-content: center;
             gap: 50px
         }
+        img {
+            height:50px;
+            width:50px;
+        }
     </style>
 </head>
 <body>
@@ -49,24 +61,30 @@
         <h1>CODSOFT Internship</h1>
     </div>
     <div class="flexc">
-        <div class="box">
-            <a href="./LandingPage/index.html">Task 1
-            <br>
-            <p>Landing Page</p>
-            </a>
-        </div>
-        <div class="box">
-            <a href="./Portfolio/index.html">Task 2
-            <br>
-            <p>Portfolio</p>
-            </a>
-        </div>
-        <div class="box">
-            <a href="./Calculator/index.html">Task 3
-            <br>
-            <p>Calculator</p>
-            </a>
-        </div>
+        <a href="./LandingPage/index.html">
+            <div class="box">
+                Task 1
+                <br>
+                <p>Landing Page</p>
+                <img src="./assets/landp.png" alt="LandingPage"/>
+            </div>
+        </a>
+        <a href="./Portfolio/index.html">
+            <div class="box">
+                Task 2
+                <br>
+                <p>Portfolio</p>
+                <img src="./assets/port.png" alt="Portfolio"/>
+            </div>
+        </a>
+        <a href="./Calculator/index.html">
+            <div class="box">
+                Task 3
+                <br>
+                <p>Calculator</p>
+                <img src="./assets/calc.png" alt="Calculator"/>
+            </div>
+        </a>
     </div>
 </body>
 </html>
